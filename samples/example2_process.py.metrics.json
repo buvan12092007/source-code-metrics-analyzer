@@ -1,0 +1,49 @@
+{
+  "file": "samples/example2_process.py",
+  "lexical": {
+    "total_tokens": 29,
+    "token_counts": {
+      "KEYWORD": 5,
+      "IDENTIFIER": 10,
+      "OPERATOR": 10,
+      "LITERAL": 3,
+      "COMMENT": 1,
+      "OTHER": 0
+    }
+  },
+  "symbol_table": [
+    {
+      "name": "process",
+      "kind": "function",
+      "scope": "module",
+      "line": 1
+    },
+    {
+      "name": "items",
+      "kind": "parameter",
+      "scope": "process",
+      "line": 1
+    },
+    {
+      "name": "total",
+      "kind": "variable",
+      "scope": "process",
+      "line": 3
+    },
+    {
+      "name": "x",
+      "kind": "variable",
+      "scope": "process",
+      "line": 4
+    }
+  ],
+  "semantic_warnings": [],
+  "metrics": {
+    "lines_of_code": 7,
+    "cyclomatic_complexity": 3,
+    "max_nesting_depth": 3,
+    "function_count": 1,
+    "comment_density_pct": 14.3,
+    "total_tokens": 29
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "file": "samples/example1_classify.py",
+  "lexical": {
+    "total_tokens": 24,
+    "token_counts": {
+      "KEYWORD": 6,
+      "IDENTIFIER": 4,
+      "OPERATOR": 8,
+      "LITERAL": 6,
+      "COMMENT": 0,
+      "OTHER": 0
+    }
+  },
+  "symbol_table": [
+    {
+      "name": "classify",
+      "kind": "function",
+      "scope": "module",
+      "line": 1
+    },
+    {
+      "name": "n",
+      "kind": "parameter",
+      "scope": "classify",
+      "line": 1
+    }
+  ],
+  "semantic_warnings": [],
+  "metrics": {
+    "lines_of_code": 6,
+    "cyclomatic_complexity": 3,
+    "max_nesting_depth": 3,
+    "function_count": 1,
+    "comment_density_pct": 0.0,
+    "total_tokens": 24
+  }
+}

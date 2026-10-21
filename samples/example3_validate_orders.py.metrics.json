@@ -1,0 +1,75 @@
+{
+  "file": "samples/example3_validate_orders.py",
+  "lexical": {
+    "total_tokens": 96,
+    "token_counts": {
+      "KEYWORD": 13,
+      "IDENTIFIER": 30,
+      "OPERATOR": 43,
+      "LITERAL": 9,
+      "COMMENT": 1,
+      "OTHER": 0
+    }
+  },
+  "symbol_table": [
+    {
+      "name": "validate_orders",
+      "kind": "function",
+      "scope": "module",
+      "line": 1
+    },
+    {
+      "name": "orders",
+      "kind": "parameter",
+      "scope": "validate_orders",
+      "line": 1
+    },
+    {
+      "name": "min_amount",
+      "kind": "parameter",
+      "scope": "validate_orders",
+      "line": 1
+    },
+    {
+      "name": "valid_count",
+      "kind": "variable",
+      "scope": "validate_orders",
+      "line": 3
+    },
+    {
+      "name": "flagged",
+      "kind": "variable",
+      "scope": "validate_orders",
+      "line": 4
+    },
+    {
+      "name": "order",
+      "kind": "variable",
+      "scope": "validate_orders",
+      "line": 5
+    },
+    {
+      "name": "amount",
+      "kind": "variable",
+      "scope": "validate_orders",
+      "line": 7
+    },
+    {
+      "name": "status",
+      "kind": "variable",
+      "scope": "validate_orders",
+      "line": 8
+    }
+  ],
+  "semantic_warnings": [
+    "line 19: 'unknown_id' referenced but not found in any enclosing scope's symbol table"
+  ],
+  "metrics": {
+    "lines_of_code": 20,
+    "cyclomatic_complexity": 7,
+    "max_nesting_depth": 5,
+    "function_count": 1,
+    "comment_density_pct": 5.0,
+    "total_tokens": 96
+  }
+}
